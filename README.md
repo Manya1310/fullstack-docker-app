@@ -27,7 +27,7 @@ fullstack-docker-app/
 
 1. Clone the repository
 2. Configure environment variables in `.env`
-3. Run with Docker Compose (coming soon)
+3. Run with Docker Compose
 
 ## Technologies Used
 
@@ -35,25 +35,3 @@ fullstack-docker-app/
 - Node.js + Express
 - PostgreSQL
 - Docker & Docker Compose
-```
-
----
-
-## STEP 6: Verify Your Folder Structure
-
-Your folder structure should now look like this:
-```
-fullstack-docker-app/
-├── backend/
-│   ├── app.js
-│   ├── package.json
-│   └── Dockerfile (empty)
-├── frontend/
-│   ├── package.json
-│   ├── Dockerfile (empty)
-│   └── src/
-│       └── App.js
-├── db-data/ (empty folder)
-├── docker-compose.yml (empty)
-├── .env (empty)
-└── README.md
